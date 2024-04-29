@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.JikanSplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/JikanBlue</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/jikan_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.AniCompose</item>
+    </style>
+    <style name="Theme.AniCompose" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
